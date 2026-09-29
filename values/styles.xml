@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.FileShare" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Primary Brand Color -->
+    <!-- 1. Base AppTheme -->
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">#6200EE</item>
         <item name="colorOnPrimary">#FFFFFF</item>
-        
-        <!-- Secondary Brand Color -->
         <item name="colorSecondary">#03DAC5</item>
         <item name="colorOnSecondary">#000000</item>
-        
-        <!-- Status Bar -->
         <item name="android:statusBarColor">?attr/colorPrimary</item>
+    </style>
+    
+    <!-- 2. AppTheme.NoActionBar (Manifest e jodi ei naam thake) -->
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+    </style>
+
+    <!-- 3. Apnar custom Theme.FileShare (Manifest er purono theme) -->
+    <style name="Theme.FileShare" parent="AppTheme">
     </style>
 </resources>
