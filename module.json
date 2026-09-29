@@ -1,0 +1,16 @@
+{
+  "name": "wifi-file-share-pro",
+  "version": "2.0.0",
+  "author": "admin",
+  "description": "Professional WiFi file sharing with QR — settings, history, Material Design 3",
+  "isMain": false,
+  "overrideMainActivity": true,
+  "minSdk": 21,
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CAMERA",
+    "android.permission.VIBRATE"
+  ]
+}
